@@ -222,7 +222,7 @@ function RegistrarVentas() {
                         </Button>
                       </div>
 
-                      <ModalProveedor
+                      <ModalVendedor
                         show={showVendedores}
                         onHide={() => setShowVendedores(false)}
                         data={vendedores}
@@ -243,7 +243,7 @@ function RegistrarVentas() {
                         onSelect={handleModalSelectProducto}
                       />
 
-                      <ModalVendedor
+                      <ModalProveedor
                         show={showProveedor}
                         onHide={() => setShowProveedor(false)}
                         data={proveedores}

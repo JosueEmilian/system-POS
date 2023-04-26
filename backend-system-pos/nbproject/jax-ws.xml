@@ -4,18 +4,6 @@
     <service name="WSLogin">
       <implementation-class>service.WSLogin</implementation-class>
     </service>
-    <service name="WSCrudUser">
-      <implementation-class>service.WSCrudUser</implementation-class>
-    </service>
-    <service name="WebServiceRol">
-      <implementation-class>service.WebServiceRol</implementation-class>
-    </service>
-    <service name="WSCrudModulo">
-      <implementation-class>service.WSCrudModulo</implementation-class>
-    </service>
-    <service name="WSCrudPermiso">
-      <implementation-class>service.WSCrudPermiso</implementation-class>
-    </service>
     <service name="WSCategoriaCrud">
       <implementation-class>service.WSCategoriaCrud</implementation-class>
     </service>
